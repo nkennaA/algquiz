@@ -1,0 +1,11 @@
+2) In a linked list, each item has a pointer to the next item in the list. For example, if my array 
+is [1, 2, 3], then my node for the number 1 will point to a node with the number 2, which will point
+to number 3. This makes it much easier to insert and remove values than in a standard array, but a bit
+harder to get the length of the array. A doubly-linked list is the same concept, except it has pointers 
+that point to the next item in the list AND the previous item in the list. So the node for the item 2 in our
+array would have a point to the previous item, 1, and the next item, 3. The node 1 would point to the next item, 2,
+and have a null previous pointer.
+
+3) Big O notation represents the upper bound for the algorithmic complexity and runtime of an algorithm. It is written
+in a way to demonstrate the algorithm will run in proportion to some operation on n, n being the number of items the algorithm
+operating on. Common operations for Big-O notation are O(n^2), O(nlogn), O(n) and so on. 
